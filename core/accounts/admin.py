@@ -2,6 +2,10 @@ from django.contrib import admin
 from . models import Guard, Sites
 # Register your models here.
 
+admin.site.site_header = "GOITSIKHOSI ADMIN PANEL"
+admin.site.site_title = "GOITSIKHOSI CONTROL CENTER"
+admin.site.index_title = "Welcome to GOITSIKHOSI Management System"
+
 
 @admin.register(Guard)
 class GuarAdmin(admin.ModelAdmin):

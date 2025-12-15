@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth import authenticate, login
 
 # Create your models here.
 class Sites(models.Model):
@@ -25,3 +26,5 @@ class Guard(models.Model):
     
     def __str__(self):
         return f"{self.first_name} - {self.last_name}"
+    
+    

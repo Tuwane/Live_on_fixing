@@ -34,7 +34,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     
-    'adminpro',
+    'administration',
     'accounts',
     
     

@@ -23,7 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-druf^%1n16v&0b*ehnh4ck%!7$t6!98pqqb6@h3!98pqqb6@h3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
+
+
 
 ALLOWED_HOSTS = ['*']
 
@@ -31,7 +33,13 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    
+    'adminpro',
     'accounts',
+    
+    
+    
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

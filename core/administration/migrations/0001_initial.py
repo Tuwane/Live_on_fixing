@@ -32,7 +32,7 @@ class Migration(migrations.Migration):
                 ('feedback', models.TimeField(blank=True, null=True)),
                 ('status', models.CharField(choices=[('draft', 'Draft'), ('submitted', 'Submitted'), ('approved', 'Approved')], default='draft', max_length=20)),
                 ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('admin', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='adminpro.adminprofile')),
+                ('admin', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='administration.adminprofile')),
             ],
         ),
     ]

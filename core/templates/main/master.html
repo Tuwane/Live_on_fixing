@@ -13,6 +13,9 @@
 
     <!-- Your Custom CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
 </head>
 
 <body style="background-color: #f5f5f5;">
@@ -21,7 +24,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">
-                Goitsikgosi Security
+                GOISIKHOSI SECURITY
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -32,17 +35,43 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#quality">Quality</a></li>
+                    
+                    
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <ul class="navbar-nav ms-auto">
 
+    
+    
+    
+
+    <!-- Dropdown Starts -->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="companyDropdown" role="button" data-bs-toggle="dropdown">
+            Company Info
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#mission">Mission</a></li>
+            <li><a class="dropdown-item" href="#vision">Vision</a></li>
+            <li><a class="dropdown-item" href="#competitive-advantage">Competitive Advantage</a></li>
+            <li><a class="dropdown-item" href="#quality-assurance">Quality Assurance</a></li>
+            <li><a class="dropdown-item" href="#target-market">Target Market</a></li>
+            <li><a class="dropdown-item" href="#contingency-plan">Contingency Plan</a></li>
+            <li><a class="dropdown-item"href="#client-satisfaction">Client Satisfaction</a></li>
+        </ul>
+    </li>
     <!-- ===== Hero Section ===== -->
     <section class="text-white text-center" style="background: url('{% static "images/security-bg.jpg" %}') center/cover no-repeat; padding: 120px 0;">
         <div class="container">
-            <h1 class="fw-bold display-4">Professional Security Services</h1>
+            <h1 class="fw-bold display-4">Goitsikgosi Security Services</h1>
             <p class="lead my-3">Guarding | Patrol | CCTV Monitoring | VIP Protection</p>
             <a href="#contact" class="btn btn-primary btn-lg">Request a Quote</a>
         </div>
@@ -85,17 +114,438 @@
         </div>
     </section>
 
+    <!-- ===== clinet satisfaction ===== -->
+     <section class="py-5 bg-light" id="client-satisfaction">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Client Satisfaction</h2>
+
+        <p class="lead text-center mb-5">
+            
+            Goitsikgosi Security is a customer-oriented organization, that follows an outside-in 
+            perspective. All our programs are derivative of our target customer’s needs and 
+            wants. 
+            Discipline and focused implementation of the service Goitsikgosi Security Services 
+            with the assistance of <strong>service SETA developed</strong> a Quality system management which 
+            is in line with <strong>ISO 9000-2000</strong>. Well-trained and innovative smiling workers. We 
+            believe a satisfied worker is more ready to deliver value-added service than a 
+            dissatisfied worker. We will remain an icon in this industry owing to the above values. 
+            What gives us an urge in the labour market is our commitment to develop and look 
+            after our workers, fair remuneration as laid down by legislation, and observing other 
+            regulations that enhance both the working and social lives of our workers. We 
+            believe in doing things right the first time. This and all the other values that we 
+            cherish, as an organization, have become a cornerstone in our customer satisfaction 
+            drive.
+        </p>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Personalized Service</h5>
+                    <p>
+                        Every client receives a tailored security solution based on their 
+                        needs, risk level, and operational environment.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Fast Response Time</h5>
+                    <p>
+                        Our supervisors and control room respond quickly to incidents, 
+                        improving safety and giving clients peace of mind.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Open Communication</h5>
+                    <p>
+                        We maintain transparent communication through regular reports, 
+                        updates, and direct access to our management team.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-5">
+            <p class="fst-italic">
+                “Your satisfaction is our priority — we protect what matters most to you.”
+            </p>
+        </div>
+    </div>
+</section>
+    <!-- ===== Target Market ===== -->
+     <section class="py-5 bg-white" id="target-market">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Our Target Market</h2>
+
+        <p class="lead text-center mb-5">
+            Goitsi Security Services provides reliable protection to individuals, businesses, 
+            and organizations that require trusted, professional security solutions.
+        </p>
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold text-center">Residential Clients</h5>
+                    <p class="text-center">
+                        Homes, estates, complexes, and private properties requiring 
+                        guarding and patrol services.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold text-center">Commercial Businesses</h5>
+                    <p class="text-center">
+                        Shops, offices, malls, warehouses, and business parks needing 
+                        professional security presence.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold text-center">Industrial Sites</h5>
+                    <p class="text-center">
+                        Factories, mining sites, plants, and construction areas requiring 
+                        high-risk protection.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold text-center">Government & Public Sector</h5>
+                    <p class="text-center">
+                        Schools, municipal buildings, health facilities, and public institutions 
+                        that require secure environments.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
     <!-- ===== About ===== -->
     <section class="py-5 bg-light" id="about">
         <div class="container">
             <h2 class="text-center fw-bold mb-4">About Us</h2>
             <p class="lead text-center">
-                Goitsi Security Services is a trusted security company providing 
-                reliable and professional security solutions across South Africa.
+                
+                Goitsikgosi security services is a  
+                reputable Security and guarding  
+                Company that prioritizes security 
+                and quality management. We are 
+                dedicate to providing superior  
+                Security services and facility 
+                management. Our vision is to 
+                become the most recognized and  
+                Trusted company know for 
+                excellent service ;responsiveness 
+                and satisfied client 
+
+ 
+
+                
             </p>
         </div>
     </section>
 
+    <!-- ===== Mission ===== -->
+     <section class="py-5 bg-light" id="mission">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Our Mission</h2>
+        <p class="lead text-center">
+            <h2 style="text-align:center">Company Mission</h2>
+            <strong>Our mission</strong> is to provide our clients with <strong>superior services</strong> that are in line with their 
+            ever-changing security and protection needs. Our company recognizes that to 
+            achieve our mission we must: <strong>recruit and retain the most qualified agents</strong> in the 
+            industry. Provide our agents with a continuing education that that employs the most 
+            current technology and protection techniques available. The success of our company 
+            will only be measured by the level of peace of mind that our clients experience while 
+            under our protection.
+        </p>
+    </div>
+</section>
+<!-- ===== Our Competitive ===== -->
+ <section class="py-5 bg-white" id="competitive-advantage">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Our Competitive Advantage</h2>
+
+        <p class="lead text-center mb-5">
+            <h2style="text-align:center">Our competitive advantage</h2> 
+                We are customer-based in that we do. 
+                Well-managed organization. 
+                <strong>We have the resources and experience to provide a quality service to our clients</strong>. 
+                Total quality management system based on <strong>IOS 9001-2000</strong> 
+                Compliance with the <strong>OHS act and environment management</strong>. 
+                Our well-trained workers continually invest in their improvement 
+                We are not too big or small to understand and meet our client’s requirements.
+                        </p>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Highly Trained Officers</h5>
+                    <p>
+                        Our guards receive continuous training, refresher courses, 
+                        and performance evaluations to maintain top-level readiness.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">24/7 Operational Support</h5>
+                    <p>
+                        Our control room and supervisors operate around the clock, 
+                        ensuring immediate response to incidents or client needs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Smart Technology Integration</h5>
+                    <p>
+                        We integrate CCTV systems, patrol monitoring apps, radio communication, 
+                        and incident reporting tools to enhance service quality.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ===== Quality Assurance ===== -->
+    
+<section class="py-5 bg-light" id="quality-assurance">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Quality Assurance</h2>
+
+        <p class="lead text-center mb-5">
+            To <strong>upgrade services to meet clients in an ever-changing market</strong> 
+            To </strong>constantly provide cutting-edge knowledge and information</strong> as per 
+            acceptable national and international standards.
+        </p>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Standard Operating Procedures</h5>
+                    <p>
+                        All operations follow strict SOPs to ensure service consistency 
+                        and compliance with PSIRA and industry standards.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Supervisor Audits</h5>
+                    <p>
+                        Regular onsite inspections and supervisor check-ins guarantee 
+                        guard performance and accountability.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Client Feedback Integration</h5>
+                    <p>
+                        We actively collect client feedback and use it to improve 
+                        service delivery and strengthen our operations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- ===== Vision ===== -->
+     <section class="py-5 bg-white" id="vision">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Our Vision</h2>
+        <p class="lead text-center">
+            
+            Goitsikgosi Security Services PTY (Ltd) is to be a reputable company known for 
+            <strong>excellent services, responsive</strong>, happy, <strong>innovative staff, and satisfied customers</strong>.
+        </p>
+    </div>
+</section>
+    <!-- ===== Quality Management ===== -->
+    <section class="py-5 bg-white" id="quality">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Quality Management</h2>
+        <p class="lead text-center">
+            <h2 style="text-align:center">Management security system</h2>  
+All Goitsikgosi services places major emphasis on managing its 
+Operation quality, especially its <strong>forensic investigation</strong>, guarding and officers. Our 
+quality management process begin when prosperity guard and officers are 
+<strong>Intrest in our industry as a career, and commitment to personal success</strong>. It continues 
+throughout the entire training process where instractors file several report assessing 
+each trainee’s progress 
+<strong>Once training has been completed each candidate is assigned to the type of post</strong> his 
+training instructor's report indicate he is best suited for. In some cases, initial posting 
+is monitored by an experienced officer for some period to determine how he function 
+in a real environment . 
+<strong>Goitsikgosi security services released that very few of our competitors are willing to  
+make the financial  and time commitment necessary to this thought  quality 
+management program </strong>
+We look at it as an investment in a long term future of company and a vital  
+Part of costumer services we will never compromise. <strong>In short, we want our client to 
+remain our client and stand ready to do whatever it takes to make that important part 
+of our business happen</strong>  
+Goitsikgosi security services quality management also extend to the care and 
+maintenance of our patrol 
+Vehicles, office equipment, and other real property. Vehicle, two way radios, and 
+electronic monitoring  
+Systems are meticulous maintained and frequently by relevant experts .the 
+possibility of equipment failure on any assessment is just not acceptable under our 
+operational plan. 
+<strong>ISO 9000 </strong>is a series of Standards, developed and published by the international 
+Organization for Standardization (IOS), defines, establishes, and maintains a quality 
+assurance system for manufacturing and service industries.  
+<strong>[1] [2]</strong> The standards are available through national standards bodies. IOS 9000 
+deals with the fundamental quality of management systems, <strong>[3]</strong> including the eight 
+management principles upon which the family of standards is based. <strong>[3][4] IOS 
+9001deals</strong> with the requirements that organizations wishing to meet the standards 
+must fulfill. 
+<strogn>[2]</strong>  Third-party certification bodies provide independent confirmation that the 
+organization meets the requirements of IOS 9001. Over a million organizations 
+worldwide are independently certified, making IOS 9001 is one of the most widely 
+used management tools in the world today. Despite widespread use the IOS 
+certification process has been criticized as being wasteful and not useful for all 
+organizations. 
+<strong>IOS 9000</strong> was first published in 1987. It was based on the BS 5750 series of 
+standards from BSI, were proposed to <strong>ISB in 1979</strong>. However, its history can be 
+traced back some twenty years before that, to the publication of the <strong>United States 
+Department of Defense MIL-Q-9858 was revised into the NATO</strong>.  AQAP series of 
+guidance standards in 1979 and finally revised into the<strong> BS 5750 series of 
+requirements standards published in 1979 before being submitted to ISO</strong>. BSI has 
+been certifying organizations for their quality management systems since 1978. <strong>its 
+first certification (FM 00001) is still extant and held by Tarmac limited, a successor to 
+the original company which held this certificate. Today BSI claims to certify 
+organizations at 70,000 sites globally.</strong>
+        </p>
+
+        <div class="row mt-4 g-4">
+            <div class="col-md-4">
+                <div class="card shadow p-3">
+                    <h5 class="fw-bold">Regular Inspections</h5>
+                    <p>Supervisors conduct routine on-site inspections to ensure guards meet standards.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-3">
+                    <h5 class="fw-bold">Training & Certification</h5>
+                    <p>All guards go through PSIRA-aligned training and skill refreshers.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-3">
+                    <h5 class="fw-bold">Performance Reporting</h5>
+                    <p>We provide clients with performance logs, patrol reports, and compliance documentation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- ===== Contingency-plan ===== -->
+     <section class="py-5 bg-light" id="contingency-plan">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Our Contingency Plan</h2>
+
+        <p class="lead text-center mb-5">
+            Goitsikgosi Security Services source its <strong>officers from local training centers</strong> like fidelity 
+            training center. 
+            Goitsikgosi Security Services management is trained in the absence of managing 
+            members to make strategic decisions or once such duties are delegated to them. 
+            Goitsikgosi Security Services has a <strong>training and development plan</strong>. 
+            Goitsikgosi Security Services has a <strong>good working relationship with SAPS and other 
+            security stakeholders</strong>. 
+            <strong>In case of any emergency Goitsikgosi Security Services will ensure the continuity of 
+            service delivery because of its contingency plan and support structures</strong>. 
+            Goitsikgosi Security Services has <strong>processes and systems</strong> in place to deal and attend 
+            to any eventuality should the need arise.
+        </p><br/>
+        <p class="lead-text-center mb-5">
+            <h3>CONTIGENCY PLAN</h3> 
+<strong>Civil/Labour unrest [Strikers/ this tip of emergency usually takes the form of a 
+peaceful a stay-away’s] strike, riot actions or faction fights and need to be dealt with 
+very discretely</strong>. 
+Strike Control Prior identification of trained <strong>manpower and materials resources</strong>, to 
+combat the emergency or crisis situation. 
+General rules of safety management that we at Goitsikgosi Security Services labour 
+hire and Security employ: 
+<strong>Our Labour Hire and Security is always on the lookout for any signs that may 
+indicate a possible strike situation and report it immediately to management</strong>. 
+In case of <strong>peaceful strike, non-striking</strong> security officers must maintain a low profile 
+but with alertness. 
+<strong>Officers must be careful and not appear heavily armed as this may cause a violent 
+reaction</strong>. 
+Where possible, avoid<strong> SAPS involvement</strong> unless violence occurs and if authorization 
+was obtained beforehand from management. 
+Maintain a chronological diary of events. 
+Management must be informed daily on strikes situations and negotiation results in 
+the union/workforce. 
+Detail planning of guarding system and alternative manpower resources must be in 
+place within <strong>24 hours </strong>after confirmation of strike. Including an induction-training plan 
+for alternative manpower. 
+<strong>The securing of all security equipment [weapons,radios, etc.]</strong>. 
+Report to management immediately when an unrest situation/strike situation starts. 
+Obtain and provide management with full details, who, what, when, where, why, 
+how. 
+<strong>Officers must not meddle with negotiations between management and fellow strikers</strong>. 
+If strike develops into <strong>riot action and SAPS </strong>are called in, security officials must follow 
+orders of the members in charge of SAPS. 
+Keep a written record of all events, documents, and acts.
+        </p>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Emergency Response Protocols</h5>
+                    <p>
+                        Our guards are trained to respond quickly to emergencies, 
+                        including theft, fire, medical incidents, or security breaches.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Backup Resources</h5>
+                    <p>
+                        We maintain backup personnel, vehicles, and equipment to ensure 
+                        service continuity in case of unforeseen events.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-4 h-100">
+                    <h5 class="fw-bold">Communication & Reporting</h5>
+                    <p>
+                        Real-time communication and reporting systems allow immediate 
+                        escalation and coordination with clients and authorities.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
     <!-- ===== Contact ===== -->
     <section class="py-5" id="contact">
         <div class="container">

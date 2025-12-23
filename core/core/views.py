@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return render(request, 'main/index.html',{'index':"This page is under development "})
+    return render(request, 'main/index.html',{'index':"Hello "})
 
 
 def about(request):

@@ -21,53 +21,7 @@
 <body style="background-color: #f5f5f5;">
 
     <!-- ===== Navbar ===== -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#">
-                GOISIKHOSI SECURITY
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navMenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    
-                    <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#quality">Quality</a></li>
-                    
-                    
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <ul class="navbar-nav ms-auto">
-
-    
-    
-    
-
-    <!-- Dropdown Starts -->
-    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="companyDropdown" role="button" data-bs-toggle="dropdown">
-            Company Info
-        </a>
-        <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="#about">About</a></li>
-            <li><a class="dropdown-item" href="#mission">Mission</a></li>
-            <li><a class="dropdown-item" href="#vision">Vision</a></li>
-            <li><a class="dropdown-item" href="#competitive-advantage">Competitive Advantage</a></li>
-            <li><a class="dropdown-item" href="#quality-assurance">Quality Assurance</a></li>
-            <li><a class="dropdown-item" href="#target-market">Target Market</a></li>
-            <li><a class="dropdown-item" href="#contingency-plan">Contingency Plan</a></li>
-            <li><a class="dropdown-item"href="#client-satisfaction">Client Satisfaction</a></li>
-        </ul>
-    </li>
+   
     <!-- ===== Hero Section ===== -->
     <section class="text-white text-center" style="background: url('{% static "images/security-bg.jpg" %}') center/cover no-repeat; padding: 120px 0;">
         <div class="container">
@@ -76,6 +30,53 @@
             <a href="#contact" class="btn btn-primary btn-lg">Request a Quote</a>
         </div>
     </section>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container">
+
+        <!-- Logo + Brand -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="{% static 'images/goitsi.png' %}" 
+                 alt="Goitsikgosi Logo" 
+                 class="me-2"
+                 style="height: 45px; width: auto;">
+            <span class="fw-bold">Goitsikgosi Security</span>
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#client-satisfaction">Client Satisfaction</a></li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                        Company Info
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#about">About</a></li>
+                        <li><a class="dropdown-item" href="#mission">Mission</a></li>
+                        <li><a class="dropdown-item" href="#vision">Vision</a></li>
+                        <li><a class="dropdown-item" href="#competitive-advantage">Competitive Advantage</a></li>
+                        <li><a class="dropdown-item" href="#quality-assurance">Quality Assurance</a></li>
+                        <li><a class="dropdown-item" href="#target-market">Target Market</a></li>
+                        <li><a class="dropdown-item" href="#contingency-plan">Contingency Plan</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
 
     <!-- ===== Services ===== -->
     <section class="py-5" id="services">

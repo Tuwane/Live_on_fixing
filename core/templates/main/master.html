@@ -14,17 +14,27 @@
     <!-- Your Custom CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
+<style>
+.center-img {
+    display: block;      /* Required to allow margin: auto to work */
+    margin-left: auto;   /* Centers it horizontally */
+    margin-right: auto;  /* Centers it horizontally */
+    width: 500px;        /* Set the width as you had it */
+    margin-top: 20px;    /* Adds a little space from the very top */
+}
+</style>
 
 </head>
 
-<body style="background-color: #f5f5f5;">
+<body style="background-image:url('images/goitsi.png');">
+<img src="{% static 'images/goitsi.png' %}" width="500" class="center-img" alt="Goitsi Image">
 
     <!-- ===== Navbar ===== -->
    
     <!-- ===== Hero Section ===== -->
     <section class="text-white text-center" style="background: url('{% static "images/security-bg.jpg" %}') center/cover no-repeat; padding: 120px 0;">
         <div class="container">
+            
             <h1 class="fw-bold display-4">Goitsikgosi Security Services</h1>
             <p class="lead my-3">Guarding | Patrol | CCTV Monitoring | VIP Protection</p>
             <a href="#contact" class="btn btn-primary btn-lg">Request a Quote</a>
